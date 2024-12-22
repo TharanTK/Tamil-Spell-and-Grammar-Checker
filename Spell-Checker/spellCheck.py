@@ -90,9 +90,6 @@ result_display.pack(padx=10, pady=5)
 scrollbar = ttk.Scrollbar(result_frame, command=result_display.yview)
 scrollbar.pack(side="right", fill="y")
 result_display["yscrollcommand"] = scrollbar.set
-
-# Footer
-footer = tk.Label(root, text="Developed by [Your Name]", font=("Helvetica", 10), bg="#e6f7ff", fg="#007acc")
 footer.pack(pady=10)
 
 # Start the GUI
